@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Fipe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 id="title">
+            Consulta Fipe
+        </h1>
+
+        <div id="div1">
+            <img id="logo" src="https://image.flaticon.com/icons/svg/3202/3202897.svg" alt="logo">
+        </div>
+    </header>
+
+    <div id="faixa"></div>
+
+    <main>
+
+        <section id="sec2">
+            <form>
+
+
+                <div id="tipoveiculo">
+                    <label for="veiculo">Selecione o tipo de veiculo</label>
+                    <select id="veiculo" onchange="loadMarcas(this.value)">
+                        <option value="">Selecione...</option>
+                        <option value="carros">Carro</option>
+                        <option value="motos">Moto</option>
+                        <option value="caminhoes">Caminhões</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="marcas">Selecione a marca</label>
+                    <select id="marcas" onchange="loadModelos(this.value)"></select>
+                </div>
+
+                <br>
+                <div>
+
+                    <label for="modelo">Selecione o modelo</label>
+                    <select id="modelo" onchange="loadAno(this.value)"></select>
+                </div>
+
+                <br>
+                <div>
+                    <label for="ano">Selecione o ano</label>
+                    <select id="ano" onchange="loadValor(this.value)"></select></div>
+
+                <br>
+
+                <section id="sec1">
+
+                </section>
+
+            </form>
+        </section>
+
+        
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+html {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#div1 {
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: gold;
+}
+
+#title {
+    margin-top: 6px;
+    color: white;
+}
+
+#faixa {
+    padding: 6px;
+    background-color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid black;
+    width: 400px;
+    height: 550px;
+    background-color: darkgray;
+    border-radius: 70px;
+}
+
+#cardfipe {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid black;
+}
+
+#sec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+#tipoveiculo{
+    margin-top: 30px;
+}
